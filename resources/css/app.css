@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app_navigation_menu {
+    box-shadow: 0px 3px 6px #D8D8D82E;
+
+}
+
+.app_logo_text {
+    width: 83px;
+    height: 43px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.xl_section_title {
+    font-family: 'Lora', serif;
+    font-size: 54px;
+    letter-spacing: 0px;
+    color: #191919;
+
+}
+
+.large_title {
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #191919;
+
+}
+
+.secondary_title {
+    font-family: 'Lora', serif;
+    font-size: 54px;
+}
+
+.section_background_text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 200px;
+    color: #fff;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    opacity: 0.1;
+}
+
+#secound_hero_image {
+
+    background-size: 1020px;
+    width: 1020px;
+    height: 650px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #hero_first_image {
+        width: 800px !important;
+        position: relative !important;
+    }
+
+    #secound_hero_image {
+        display: none;
+    }
+
+    .section_background_text {
+        display: none;
+        padding: 12px;
+    }
+
+    .large_title {
+        font-size: 20px !important;
+        padding: 12px;
+    }
+
+    .secondary_title {
+        font-size: 27px !important;
+        padding: 12px;
+    }
+
+    .lorem_text {
+        font-size: 12px !important;
+        padding: 12px;
+    }
+
+    .large_image {
+        display: none;
+    }
+
+    .small_span {
+        font-size: 12px;
+    }
+
+    .mobile_text_continer {
+        width: 70% !important;
+    }
+
+    #contact_us_section {
+        margin-top: 12px;
+
+    }
+
+    #contact_us_form {
+        margin-top: 35px;
+        width: 85%;
+        position: relative;
+        margin-bottom: 35px;
+        padding: 21px;
+    }
+
+    #lorem_span {
+        width: 317px
+    }
+
+    #news_section {
+        position: relative;
+        margin-top: 200px;
+    }
+
+    #branches_section {
+        display: none;
+    }
+footer{
+    display: none;
+}
+}
