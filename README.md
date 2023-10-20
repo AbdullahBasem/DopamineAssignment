@@ -32,11 +32,18 @@ MAIL_ENCRYPTION=tls
 ```bash
 composer update
 ```
+## run artisan command 
+```bash
+php artisan serve 
+```
+## 
 
 ## run npm dev
 ```bash
 npm run dev
 ```
 ## 
+
+
 
 abdullah basem , email : ab.basem.j@gmail.com
